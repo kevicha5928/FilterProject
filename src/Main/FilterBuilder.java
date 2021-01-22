@@ -10,7 +10,7 @@ public class FilterBuilder {
      * a string input from the user.
      * conditions that need to be considered together must be enclosed with a parentheses
      * ie (name=bob||name=carl)&&(age<50&&age>20)
-     * if not parentheses are provided then, method will assume groupings from left to right
+     * if no parentheses are provided then, method will assume groupings from left to right
      * ie firstname=bob||surname=Blogs&&age=35 -> (firstname=bob||(surname=Blogs&&age=35))
      *
      * Please note this generator may not cover all cases. this was all I could come up with
